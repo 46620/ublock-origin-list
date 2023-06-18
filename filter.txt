@@ -1,3 +1,7 @@
+! Title: 46620's custom filter
+! Description: 46620's custom filter list
+! Homepage: https://github.com/46620/ublock-origin-list
+
 ! Clean up Twitter
 twitter.com##a[href="/i/verified-choose"]
 twitter.com##a[href="/i/twitter_blue_sign_up"]
