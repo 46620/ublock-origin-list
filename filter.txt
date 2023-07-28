@@ -2,8 +2,8 @@
 ! Description: 46620's custom filter list
 ! Homepage: https://github.com/46620/ublock-origin-list
 
-! Clean up Twitter
-! Remove Twitter Blue
+! Clean up X
+! Remove Twitter Blue (yes, as of 2023-07-28 it's still called Twitter Blue)
 twitter.com##a[href="/i/verified-choose"]
 twitter.com##a[href="/i/twitter_blue_sign_up"]
 twitter.com##a[href="/settings/monetization"]
