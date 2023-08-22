@@ -3,10 +3,10 @@
 ! Homepage: https://github.com/46620/ublock-origin-list
 
 ! Clean up X
-! Remove Twitter Blue (yes, as of 2023-07-28 it's still called Twitter Blue)
+! Remove Premium
 twitter.com##a[href="/i/verified-choose"]
-twitter.com##a[href="/i/twitter_blue_sign_up"]
 twitter.com##a[href="/settings/monetization"]
+twitter.com##a[href="/i/premium_sign_up"]
 ! Remove Trending and spacers
 twitter.com##section[role="region"]:has(h1:has-text("Trending now"))
 twitter.com##.r-1f1sjgu.r-ymttw5.r-uaa2di.r-eqz5dr.r-1habvwh.css-1dbjc4n
@@ -37,3 +37,7 @@ m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-s
 m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
 m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
+
+! 2023-07-29 https://www.instagram.com
+www.instagram.com##a[href="/reels/"]
+
