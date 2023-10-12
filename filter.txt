@@ -41,3 +41,5 @@ m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overl
 ! 2023-07-29 https://www.instagram.com
 www.instagram.com##a[href="/reels/"]
 
+! 2023-09-06 https://advancedtomato.com
+||advancedtomato.com/assets/images/donate-message.png$image
