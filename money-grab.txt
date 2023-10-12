@@ -1,0 +1,21 @@
+! Title: 46620's money-grab filter
+! Description: Part of 46620's custom filters. Removes adblock popups/"give us money" popups
+! Homepage: https://github.com/46620/ublock-origin-list
+
+! X
+! Remove Premium (Last updated 2023-08-21)
+twitter.com##a[href="/i/verified-choose"]
+twitter.com##a[href="/settings/monetization"]
+twitter.com##a[href="/i/premium_sign_up"]
+
+! Reddit
+! Remove Premium option [idk how well it works] (Last updated: 2023-06-14)
+www.reddit.com##a.GCltVwsXPu5lE-gs4Nucu._3fbofimxVp_hpVM6I1TGMS:nth-of-type(3)
+
+! Youtube
+! Remove Adblock warning (Last updated 1970-01-01)
+! Since I have Youtube Premium so I don't get ads on a TV, I don't actually get this popup so this is a place holder until I get a sample page
+
+! Advanced Tomato
+! Remove donation request(Last updated 2023-09-06)
+||advancedtomato.com/assets/images/donate-message.png$image
