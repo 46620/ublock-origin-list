@@ -1,16 +1,17 @@
 ! Title: 46620's custom filter Extended
-! Description: Part of 46620's custom filters. Removes what she considers "brain rot" from sites
+! Description: Part of 46620's custom filters. Removes what she considers "brain rot" from sites, and blocking scam sites when pirating/trying to actually buy shit
 ! Homepage: https://github.com/46620/ublock-origin-list
 
-! X
-! Remove Trending and spacers (Last updated: 2023-06-14)
+! X (Last updated: 2023-11-30)
+! Remove Trending and spacers
 twitter.com##section[role="region"]:has(h1:has-text("Trending now"))
 twitter.com##.r-1f1sjgu.r-ymttw5.r-uaa2di.r-eqz5dr.r-1habvwh.css-1dbjc4n
 twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-14wv3jr.r-g2wdr4.css-1dbjc4n:nth-of-type(3)
 twitter.com##div.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-14wv3jr.r-g2wdr4.css-1dbjc4n:nth-of-type(4)
+twitter.com##div.r-14wv3jr.r-g2wdr4.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.css-175oi2r:nth-of-type(3)
 
-! Youtube
-! Remove shorts (Last updated: 2023-07-05)
+! Youtube (Last updated: 2023-07-05)
+! Remove shorts
 www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)
 www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-mini-guide-entry-renderer)
 www.youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
@@ -30,6 +31,11 @@ m.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-s
 m.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
 
-! Instagram
-! Remove reels button (Last updated 2023-07-29)
+! Instagram (Last updated 2023-07-29)
+! Remove reels button
 www.instagram.com##a[href="/reels/"]
+
+! Eruce (Last updated: 2023-11-30)
+! From a thread on reddit, people have found out the .flac files sold on the site are just mp3s thrown through something like ffmpeg to get a .flac extension
+! They also seem to need to "process" a digital download, which is just sketch
+www.eruce.com
