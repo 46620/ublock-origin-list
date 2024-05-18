@@ -3,12 +3,12 @@
 ! Homepage: https://github.com/46620/ublock-origin-list
 
 ! X
-! Remove Premium (Last updated 2023-12-09)
-twitter.com##a[href="/i/verified-choose"]
-twitter.com##a[href="/settings/monetization"]
-twitter.com##a[href="/i/premium_sign_up"]
-twitter.com##a[href="/i/grok"]
-twitter.com##.r-1f1sjgu.r-ymttw5.r-uaa2di.r-eqz5dr.r-1habvwh.css-175oi2r
+! Remove Premium (Last updated 2024-05-18)
+x.com,twitter.com##a[href="/i/verified-choose"]
+x.com,twitter.com##a[href="/settings/monetization"]
+x.com,twitter.com##a[href="/i/premium_sign_up"]
+x.com,twitter.com##a[href="/i/grok"]
+x.com,twitter.com##.r-1f1sjgu.r-ymttw5.r-uaa2di.r-eqz5dr.r-1habvwh.css-175oi2r
 
 ! Reddit
 ! Remove Premium option [idk how well it works] (Last updated: 2023-06-14)
