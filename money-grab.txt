@@ -4,12 +4,12 @@
 
 ! X
 ! Remove Premium (Last updated 2024-06-30)
-x.com,twitter.com##a[href="/i/verified-choose"]
-x.com,twitter.com##a[href="/settings/monetization"]
-x.com,twitter.com##a[href="/i/premium_sign_up"]
-x.com,twitter.com##a[href="/i/grok"]
-x.com,twitter.com##a[href="/i/verified-orgs-signup"]
-x.com,twitter.com##.r-1f1sjgu.r-ymttw5.r-uaa2di.r-eqz5dr.r-1habvwh.css-175oi2r
+x.com##a[href="/i/verified-choose"]
+x.com##a[href="/settings/monetization"]
+x.com##a[href="/i/premium_sign_up"]
+x.com##a[href="/i/grok"]
+x.com##a[href="/i/verified-orgs-signup"]
+x.com##.r-1f1sjgu.r-ymttw5.r-uaa2di.r-eqz5dr.r-1habvwh.css-175oi2r
 
 ! Reddit
 ! Remove Premium option [idk how well it works] (Last updated: 2023-06-14)
